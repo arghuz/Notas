@@ -1,0 +1,69 @@
+{
+  "name": "vue-particle-effect-buttons",
+  "version": "1.0.4",
+  "author": "dreambo8563",
+  "main": "dist/vue-particle-effect-buttons.umd.min.js",
+  "browser": "dist/vue-particle-effect-buttons.umd.min.js",
+  "private": false,
+  "description": "Particle Effects Buttons for vue",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-particle-effect-buttons src/index.js",
+    "test": "npm run build",
+    "pages": "DOC_ENV=true vue-cli-service build --dest docs",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "report": "vue-cli-service build --report",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-unit-jest": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "animejs": "^3.0.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "prettier": "^1.18.2",
+    "sass": "^1.18.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreambo8563/vue-particle-effect-buttons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dreambo8563/vue-particle-effect-buttons/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/*",
+    "src/*",
+    "package.json",
+    "*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "button",
+    "particle",
+    "portal"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
